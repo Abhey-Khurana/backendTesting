@@ -10,6 +10,10 @@ app.get("/abhey",(req,res)=>{
     res.send("HELLO ABHEY KHURANA");
 })
 
+app.get("/test",(req,res)=>{
+    res.send("Working");
+})
+
 app.listen(process.env.PORT,()=>{
     console.log(`LISTENING AT PORT ${process.env.PORT}`)
 })
